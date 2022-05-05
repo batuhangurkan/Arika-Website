@@ -36,6 +36,15 @@ export default function App({ Component, pageProps }: AppProps) {
             <main className="min-h-[100vh] max-w-screen-lg p-5 w-full md:py-10 md:w-10/12 lg:py-20 lg:w-8/12 mx-auto transition-all duration-300">
                 <Header />
                 <Component {...pageProps} />
+                <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
+      <noscript>
+        {/* eslint-disable @next/next/no-img-element */}
+        <img
+          src="https://queue.simpleanalyticscdn.com/noscript.gif"
+          alt=""
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </noscript>
                 <Footer />
                 <CookieConsent debug={true} location="bottom" style={{background: '#000000', textAlign:'center'}} buttonStyle={{color:'#000000', background:'#00FF99'}} buttonText="Kabul Ediyorum" expires={15} acceptOnScroll={true} acceptOnScrollPercentage={90} overlay>Bu site çerezleri kullanır. Daha fazlasını öğrenmek için hizmet politikamıza göz at.<a href="/privacy"> Tıklayın.</a></CookieConsent>
             </main>
