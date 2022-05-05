@@ -36,7 +36,7 @@ export default function App({ Component, pageProps }: AppProps) {
             <main className="min-h-[100vh] max-w-screen-lg p-5 w-full md:py-10 md:w-10/12 lg:py-20 lg:w-8/12 mx-auto transition-all duration-300">
                 <Header />
                 <Component {...pageProps} />
-                <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
+                <script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
       <noscript>
         {/* eslint-disable @next/next/no-img-element */}
         <img
