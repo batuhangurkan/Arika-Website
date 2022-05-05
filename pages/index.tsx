@@ -32,27 +32,6 @@ export default function Index() {
                 </div>
             </div>
         </div>
-        <div className="max-w-6xl w-full my-24">
-            <div className="text-center">
-                <p className="text-white text-4xl font-large">Biz <span className="!font-bold bg-gradient-to-br from-indigo-500 to-cBlue text-transparent bg-clip-text">Kimiz?</span></p>
-                <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                    <div className="w-full flex flex-col items-center bg-zinc-500/5 transition-all duration-200 shadow-lg p-6 py-12 rounded-md text-center">
-                        <img alt="0" draggable="false" className="rounded-full" src="https://cdn.discordapp.com/avatars/267604752764764160/60312646bdbe05024f32d961239e4d9c.webp?size=512" width="256"></img>
-                        <div className="flex w-full mt-6 justify-between justify-center text-white"></div>
-                            <div>
-                            <p className="text-xl font-medium capitalize text-center text-white">Screw</p>
-                            <span className="text-sm font-light text-white/50 text-center">#0805</span>
-                            <p className="!font-bold bg-gradient-to-br from-indigo-400 to-cBlue text-transparent bg-clip-text">Front-End Developer</p>
-                            <div className="flex items-center gap-1">
-                                <a href="https://github.com/screwdev" target="_blank" className="cursor-pointer transition-all duration-200 w-10 h-10 hover:bg-zinc-500/10 rounded-full flex items-center justify-center text-white"><i className="fab fa-github"></i></a>
-                                <a href="https://discord.com/users/267604752764764160" target="_blank" className="cursor-pointer transition-all duration-200 w-10 h-10 hover:bg-zinc-500/10 rounded-full flex items-center justify-center text-white"><i className="fab fa-discord"></i></a>
-                            </div>
-                            </div>
-                        </div>
-                    </div>
-                
-            </div>
-        </div>
         </>
     
     
