@@ -46,7 +46,7 @@ export default function App({ Component, pageProps }: AppProps) {
         />
       </noscript>
                 <Footer />
- 
+ <CookieConsent debug={true} location="bottom" style={{background: '#000000', textAlign:'center'}} buttonStyle={{color:'#000000', background:'#00FF99'}} buttonText="Kabul Ediyorum" expires={15} acceptOnScroll={true} acceptOnScrollPercentage={90} overlay>Bu site çerezleri kullanır. Daha fazlasını öğrenmek için hizmet politikamıza göz at.<a href="/privacy"> Tıklayın.</a></CookieConsent>
             </main>
         </>
     );
